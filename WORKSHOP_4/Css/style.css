@@ -1,0 +1,173 @@
+
+.contendor{
+    height: 200px;
+    background-color:white;
+}
+
+
+.imagen{
+    float:right;
+    margin-top: -75px;
+    margin-right: 200px;
+
+    background: url("Images/iphone.png") no-repeat bottom right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.parrafo{
+    margin-top: 125px;
+    margin-left: 200px;
+    font-size: 20px;
+    font-family: Helvetica;
+    line-height:0%;
+}
+
+.boton{
+    margin-top:10px;
+    background-color:#33c3f0 ;
+    color: white;
+    border-radius: 40px;
+    border:none;
+    text-align:center;
+    height: 38px;
+    width: 139px;
+}
+
+/* --------------------------- */ 
+
+.contenedor_2{
+    height:450px;
+    margin-top:150px;
+    background-image :url(../Images/values-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info{
+    display: flex;width: 85%;
+    margin:auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+
+}
+.contenido{
+    height:200px;
+    text-align : center;
+    margin-top:25px;
+}
+/* Color del H2 */
+.contenido h2{
+    color: #33c3f0;
+}
+/* Color del H3 */
+.contenido h3{
+    color:white;
+}
+/* Contenedor del mensaje ancho y margen */
+.contenido .mensaje{
+    width:220px;
+    margin-top: -10px;
+}
+/*Mensaje centrado, alineado al centro, y tipo de letra */
+.centrado{
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+}
+
+/* --------------------------------------- */
+
+/*Contenedor 3, tamaño, color */
+.Contenedor_3{
+    height:200px;
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 187px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.titulo_3{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.mensaje_3{
+    width: 565px;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.boton_3{
+    margin-top:10px;
+    background-color:#33c3f0 ;
+    color: white;
+    border-radius: 40px;
+    border:none;
+    text-align:center;
+    height: 38px;
+    width: 150px;
+}
+
+/* --------------------------------------- */
+
+.contenedor_4{
+    height:600px;
+    background-image :url(../Images/values-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor_4 .encabezado_4{
+    margin-top:150px;
+}
+
+.titulo_4{
+    padding-top: 150px;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.mensaje_4{
+    width: 565px;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:white;
+}
+
+.contenedor_imagenes{
+   display:flex;
+   width: 85%;
+   margin: auto;
+   justify-content: center;
+   flex-wrap:wrap;
+   border-radius: 3px;
+}
+
+.contenedor_imagenes .imagen_2{
+    width: 50%;
+    position: relative;
+    height: 250px;
+    margin-bottom: 5px;
+    /*box-shadow: 0px 0px 3px 0px rgba(0,0,0,.75);*/
+}
+
+.imagen_2 img{
+    height: 260px;
+    object-fit: cover;
+}
+
+
+
+
