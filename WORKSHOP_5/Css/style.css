@@ -1,0 +1,97 @@
+
+#inicio{
+    height: fit-content;
+    
+}
+
+::selection{
+    color:white;
+    background:darkblue;
+}
+
+#logo{
+    width:400px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+#informacion{
+   
+    height:auto;
+    font-size:medium;
+    font-family: sans-serif;
+    padding-top:30px;
+}
+
+.info{
+    background: linear-gradient(180deg,#0b48b9 0%, #fff 100%);
+    margin-bottom: 25px;
+}
+.linea{
+    margin-top: -12px;
+    width: 190px;
+    height: 3px;
+    background-color: rgb(248, 248, 255);
+}
+.linea_contactos{
+    margin-top: -12px;
+    width: 190px;
+    height: 3px;
+    background-color: darkblue;
+}
+
+#informacion ::after{
+    text-align: justify;
+}
+
+.clases{
+    padding-top:5px;
+    margin-left:8px;
+    margin-right: 8px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.horario{
+    margin-left: 50px;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.horario th{
+    text-align: left;
+    color:rgb(0, 0, 0);
+}
+
+.horario td{
+    text-align: center;
+    padding-left: 15px;
+}
+
+#contactos{
+    font-family: sans-serif;
+    height:auto;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.contenedor_imagenes{
+    display:flex;
+    width: 10%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    margin-right: auto;
+}
+
+.imagen:hover{
+    background-color:gray;
+    border-radius: 10px;
+}
+
+
