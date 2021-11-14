@@ -1,0 +1,134 @@
+:root{
+    --fondo_celeste : rgb(150, 210, 238);
+    --color-negro:rgb(56, 56, 56);
+    --letra_h1: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --tamaño_h1 : 37px;
+    --letra_p: -webkit-pictograph;
+    --alto_linea: 0.1px;
+}
+
+.contenedor_boton{
+    height: 50px;
+    width: 100%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.linea_completa_1{
+    width:100%;
+    height: var(--alto_linea);
+    background-color:var(--color-negro);
+    margin-top: 6px;
+    margin-bottom: 3px;
+}
+
+.linea_completa_2{
+    width:100%;
+    height: var(--alto_linea);
+    background-color:var(--color-negro);
+    margin-top: 3px;
+}
+
+body h1{
+    font-family: var(--letra_h1);
+    font-size: var(--tamaño_h1);
+}
+
+body p{
+    font-family:var(--letra_p)
+}
+
+.dashboard{
+    height: 220px;
+    text-align: center;
+    background-color:var(--fondo_celeste);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.texto{
+    width:45%;
+    height: auto;
+    display:-webkit-inline-box;
+    margin-top: -18px;
+}
+
+.btn_nuevo{
+    height:35px;
+    width:145px;
+    background-color:var(--color-negro);
+    color: white;
+}
+
+.sus_productos{
+    height:350px;
+    
+}
+
+.contenedor_imagen{
+    width:93%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: space-around;
+    float : left;
+    padding-top: 50px;
+   
+}
+
+.titulo_producto{
+    width:191px;
+    height: auto;
+}
+
+.contenedor_imagen img{
+    padding-top: 43px;
+    padding-left: 39px;
+    float:left;
+}
+
+.contenedor_imagen .marco{
+    width:143px;
+    height:146px;
+    border: 1px solid black;
+}
+
+.contenedor_imagen .desc_botones_crud{
+    z-index: 100;
+    position: absolute;
+    left: auto;
+    top: auto;
+    margin-top: -147px;
+    margin-left: 150px;
+}
+
+.btn_editar{
+    background-color: rgb(14, 144, 14);
+    color: white;
+}
+
+.btn_eliminar{
+    background-color: rgb(192, 11, 11);
+    color:white
+}
+
+.desc_botones_crud button{
+    height: 28px;
+    width:80px    
+}
+
+footer{
+    background-color: var(--fondo_celeste);
+    margin-top: 4px;
+}
+
+/*
+TAREAS
+****************
+-- Darle color, centrar items a la section dashboard
+-- Hacer un table para colocar sus imagenes para que puedan editar y eliminar  + ejemplo en el
+cambalache.html
+*/

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="/css/generico.css">
+    <link rel="stylesheet" href="/css/registro.css">
+</head>
+<body>
+    <!--
+        Encabezado contiene logo y menu principal
+    -->
+    <header>
+        <nav>
+            <div>
+                <img class="logo" src="/images/logo.png" alt="logo" >
+            </div>
+            <ul class="menu">
+                <li>
+                    <button>Mi Carrito</button>
+                </li>
+                <li>
+                    <a href="/Ventanas Cambalaches.net/Login/login.html">Ingresar</a>
+                </li>
+                <li>
+                    <div class="linea"></div>
+                </li>
+                <li>
+                    <a href="/Ventanas Cambalaches.net/Cambalaches/cambalaches.html">Cambalaches</a>
+                </li>
+                <li>
+                    <div class="linea"></div>
+                </li>
+                <li>
+                    <a href="/index.html">Inicio</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="linea_100"></div>
+
+    <section class="encabezado">
+        <h1>Registro de Usuario</h1>
+        <div class="linea_horizontal"></div>
+    </section>
+
+    <!--
+        Sección que contiene todos los input
+    -->
+    <div class="cont_input">
+       
+        <div class="solicitud_1">
+            <input class="inp_s1"  type="text" placeholder="FirstName">
+            <input class="inp_s1"  type="text" placeholder="LastName">
+        </div>
+        
+        <div class="solicitud_2">
+            <input class="inp_s2" type="text" placeholder="Adress">
+            <br>
+            <br>
+            <input class="inp_s2" type="text" placeholder="Adress2">
+        </div>
+
+        <div class="solicitud_3">
+            <select class="select_s3" name="country" id="country">
+                <option disabled selected>Country</option>
+                <option value="Costa Rica">Costa Rica</option>
+            </select>
+            <input class="inp_s3" type="text" placeholder="City">
+        </div>
+
+        <div class="solicitud_4">
+            <input class="inp_s4" type="email" name="email_name" id="email_name" placeholder="Correo Electrónico">
+            <input class="inp_s4" type="password" name="password" id="password" placeholder="Contraseña">
+        </div>   
+        <div class="separador_1"></div>
+        <!--
+            Pregunta que si ya tiene usuario para redirigirlo al login
+        -->
+        <div class="texto">
+            <p>Si ya tiene cuenta de usuario <a href="/Ventanas Cambalaches.net/Login/login.html">ingrese aqui.</a></p>
+        </div>
+
+        <!--
+            botones de ingresar y cancelar
+            ingresa se dirige al dashboard
+            si cancela se dirige al login
+        -->
+        <div class="botones">
+            <a href="/Ventanas Cambalaches.net/Dashboard/dashboard.html"> <button class="btn_registrarse">Registrarse</button> </a>
+            <a href="/Ventanas Cambalaches.net/Login/login.html"> <button class="btn_cancelar">Cancelar</button> </a>
+        </div>
+
+        <div class="separador_2"></div>
+    </div>
+
+
+    <!--Pie de pagina submenu-->
+    <footer>
+        <nav class="menu_2">
+            <ul class="submenu">
+                <li>
+                    <a href="/Ventanas Cambalaches.net/Login/login.html">Ingresar</a>
+                </li>
+                <li>
+                    <div class="linea"></div>
+                </li>
+                <li>
+                    <a href="/Ventanas Cambalaches.net/Cambalaches/cambalaches.html">Cambalaches</a>
+                </li>
+                <li>
+                    <div class="linea"></div>
+                </li>
+                <li>
+                    <a href="/index.html">Inicio</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="contenedor_texto">
+            <p>Cambalaches.net</p>
+        </div>
+    </footer>
+
+</body>
+</html>
