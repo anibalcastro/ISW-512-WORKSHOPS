@@ -1,0 +1,56 @@
+
+
+.encabezado{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightskyblue;
+}
+
+.linea_50 {
+    height: 0.3px;
+    width: 326px;
+    background-color: black;
+}
+
+.content{
+    height: 293px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .linea_50{
+    height: 0.3px;
+    width: 326px;
+    background-color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.content input{
+    margin-top: 15px;
+    width: 281px;
+    height: 31px;
+}
+
+.botones button{
+    height:35px;
+    width:145px;
+}
+
+.btn_ingresar{
+    background-color:black;
+    color: white;
+}
+
+footer{
+    background-color: lightskyblue;
+}
+
+footer a{
+    color: black;
+}
