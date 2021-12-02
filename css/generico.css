@@ -1,0 +1,91 @@
+
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.logo{
+    width:53px;
+    height:37px;
+    padding: 0 10px;
+    margin-top: 9px;
+}
+
+.mi_carrito{
+    background-color:black;
+    color:white;
+    width:110px;
+}
+
+.linea_100{
+    width:100%;
+    height: 0.3px;
+    background-color: black;
+    margin-top: 15px;
+}
+
+footer{
+   
+    padding-top: 15px;
+    margin-top: 3px;
+     margin-bottom: -13px;
+ }
+ 
+ .menu_2{
+     width:100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ ul.submenu {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;  
+ }
+ .submenu li{
+     float:right;
+ }
+ 
+ .submenu  li a {
+     display: block;
+     color: black;
+     text-align: center;
+     font-size: 13px;
+     padding: 14px 53px;
+     text-decoration: none;
+     
+ }
+ 
+ .submenu  li a:hover {
+     color: white;
+     background-color: #111;
+ }
+ 
+ .submenu li div{
+     display: block;
+     height: 39px;
+     width: 1px;
+     text-align: center;
+     margin-left: 3px;
+     margin-right: 3px;
+     text-decoration: none;
+     background-color:black;
+ }
+
+ .contenedor_texto{
+    text-align: center;
+    align-items: center;
+    font-family: var(--letra_p);
+}
+
+.menu_3{
+    display: none;
+}
+/*
+    Agregar hover al menu principal
+*/
+

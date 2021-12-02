@@ -1,0 +1,28 @@
+@media screen and (max-width:794px) {
+    .linea_50{
+        width: 150px;
+    }
+    
+    .inp_buscar{
+        width: 200px;
+    }
+    
+    .btn_buscar{
+        width: 80px;
+    }
+
+    .titulo{
+        font-size: 28px;
+    }
+
+    .contenedor_imagenes_1{
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .icon{
+        display:none;
+    }
+    
+}

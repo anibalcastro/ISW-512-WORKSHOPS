@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/css/generico.css">
+    <link rel="stylesheet" href="/css-responsive/generico-responsive.css">
+    <link rel="stylesheet" href="/css/sign_up.css">
+    <link rel="stylesheet" href="/css-responsive/sign_up-responsive.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!--Menu principal-->
+    <nav role="navigation" class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only"> Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#"><img class="logo" src="/img/logo - copia.png" alt="logo"></a>
+            </div>
+
+            <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
+                <ul id="opciones_menu_principal" class="nav navbar-nav">
+                    <li class="opcion"><a href="#">Inicio</a></li>
+                    <li><a class="opcion" href="#">Cambalaches</a></li>
+                    <li><a class="opcion" href="#">Ingresar</a></li>
+                    <li><a href="#"><button class="mi_carrito">Mi Carrito</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="encabezado">
+        <main>
+            <h1>Registro de Usuario</h1>
+            <div class="linea_50"></div>
+        </main>
+    </section>
+
+    <div class="contenedor">
+
+        <div class="inp_s1">
+            <input id="first_name" type="text" placeholder="FirstName">
+            <input id="last_name" type="text" placeholder="LastName">
+        </div>
+
+        <div class="inp_s2">
+            <input id="adress" type="text" placeholder="Adress">
+            <input id="adress2" type="text" placeholder="Adress2">
+        </div>
+
+        <div class="ins_s3">
+            <select class="select_s3" name="country" id="country">
+                <option disabled selected>Country</option>
+                <option value="CRC">Costa Rica</option>
+                <option value="USA">Estados Unidos</option>
+            </select>
+    
+            <input id="city" type="text" placeholder="City">
+        </div>
+
+        <div class="ins_s4">
+            <input class="inp_s4" type="email" name="email_name" id="email_name" placeholder="Correo Electrónico">
+            <input class="inp_s4" type="password" name="password" id="password" placeholder="Contraseña">    
+        </div>
+
+        <div class="linea_1"></div>
+        <div class="texto">
+            <p>Si ya tiene cuenta de usuario <a href="#">ingrese aqui.</a></p>
+        </div>
+
+          <!--
+            botones de ingresar y cancelar
+            ingresa se dirige al dashboard
+            si cancela se dirige al login
+        -->
+        <div class="botones">
+            <a href="#"> <button class="btn_registrarse">Registrarse</button> </a>
+            <a href="#"> <button class="btn_cancelar">Cancelar</button> </a>
+        </div>
+    </div>
+
+    <div class="linea_100"></div>
+    <!--Pie de pagina-->
+    <footer>
+        <nav class="menu_2">
+            <ul class="submenu">
+                <li>
+                    <a href="#">Help</a>
+                </li>
+                <li class="linea">
+                    <div class="linea"></div>
+                </li>
+                <li>
+                    <a href="/Ventanas Cambalaches.net/Cambalaches/cambalaches.html">Shop</a>
+                </li>
+                <li class="linea">
+                    <div class="linea"></div>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li class="linea">
+                    <div class="linea"></div>
+                </li>
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="contenedor_texto">
+            <p>Cambalaches.net</p>
+        </div>
+        <div class="menu_3">
+            <a href="/index.html">Home</a>
+            <br>
+            <a href="#">About</a>
+            <br>
+            <a href="/Ventanas Cambalaches.net/Cambalaches/cambalaches.html">Shop</a>
+            <br>
+            <a href="#">Help</a>
+            <p class="direccion">Cambalaches.net</p>
+        </div>
+    </footer>
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/js/sign_up.js"></script>
+</body>
+
+</html>

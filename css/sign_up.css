@@ -1,0 +1,72 @@
+
+
+.encabezado{
+    background-color: lightskyblue;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linea_50 {
+    height: 0.3px;
+    width: 326px;
+    background-color: black;
+}
+
+.contenedor{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor .inp_s2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 363px;
+}
+
+select{
+    height: 24.96px;
+    width: 175px;
+}
+
+#adress2{
+    margin-top: 10px;
+}
+
+.ins_s1, .ins_s2, .ins_s3, .ins_s4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.linea_1{
+    width: 358px;
+    height:0.3px;
+    background-color: black;
+}
+
+.texto{
+    padding-top: 10px;
+    width: 361px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.botones button{
+    height:35px;
+    width:145px;
+}
+
+.btn_registrarse{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    background-color: lightskyblue;
+}
