@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/generico.css">
+    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="/css-responsive/inicio-responsive.css">
+    <link rel="stylesheet" href="/css-responsive/generico-responsive.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+   
+    <!--Menu principal-->
+    <nav role="navigation" class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only"> Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#"><img class="logo" src="/img/logo - copia.png" alt="logo"></a>
+            </div>
+
+            <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
+                <ul id="opciones_menu_principal" class="nav navbar-nav">
+                    <li class="opcion"><a href="#">Inicio</a></li>
+                    <li><a class="opcion" href="#">Cambalaches</a></li>
+                    <li><a class="opcion" href="#">Ingresar</a></li>
+                    <li><a href="#"><button class="mi_carrito">Mi Carrito</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  
+    <!--Encabezado de la pagina es una prueba jythjg-->
+    <section class="contenedor">
+        <main>
+            <h1 class="titulo">Inicia tu cambalache</h1>
+            <div class="linea_50"></div>
+            <br>
+            <div>
+                <input class="inp_buscar" type="text" placeholder="PS4..."> <input class="btn_buscar" type="button"
+                    value="Buscar">
+            </div>
+        </main>
+    </section>
+
+    <!--Categorias se cargar por medio de JS
+    con la funcion cargar Categorias-->
+    <div class="contenedor_2">
+        <h1 class="titulo">Categorias</h1>
+        <p class="texto">
+            Sed ut perspiciatis unde omnis iste natsu error sit voluptatem
+            accusantium doloremque laudantium.
+        </p>
+
+        <div id="contenedor_imagenes" class="row">
+            <div id="imagen" class="col-md-4">
+                <div class="marco">
+                    <img id="img_1" src="" alt="">
+                </div>
+                <h4 id="categoria_1"></h4>
+            </div>
+            <div id="imagen" class="col-md-4">
+                <div class="marco">
+                    <img id="img_2" src="" alt="">
+                </div>
+                <h4 id="categoria_2"></h4>
+            </div>
+            <div id="imagen" class="col-md-4">
+                <div class="marco">
+                    <img id="img_3" src="" alt="">
+                </div>
+                <h4 id="categoria_3"></h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="linea_100"></div>
+
+    <div class="contenedor_3">
+        <h1 class="titulo">Cambalaches Recientes</h1>
+        <div class="contenedor_imagenes_1">
+            <div class="icon"><img src="/icon/icons8-back-to-48.png" alt=""></div>
+            <div class="imagen_1">
+                <div class="marco_horizontal">
+                    <img id="img_r1" src="" alt="cambalache_reciente">
+                </div>
+                <h4 id="txt_r1"></h4>
+            </div>
+
+            <div class="imagen_1">
+                <div class="marco_horizontal">
+                    <img id="img_r2" src="" alt="cambalache_reciente">
+                </div>
+                <h4 id="txt_r2"></h4>
+            </div>
+            <div class="icon"><img src="/icon/icons8-next-page-48.png" alt="" ></div>
+        </div>
+    </div>
+
+    <div class="linea_100"></div>
+
+   <footer>
+    <nav class="menu_2">
+        <ul class="submenu">
+            <li>
+                <a href="#">Help</a>
+            </li>
+            <li class="linea">
+                <div class="linea"></div>
+            </li>
+            <li>
+                <a href="/Ventanas Cambalaches.net/Cambalaches/cambalaches.html">Shop</a>
+            </li>
+            <li class="linea">
+                <div class="linea"></div>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li class="linea">
+                <div class="linea"></div>
+            </li>
+            <li>
+                <a href="/index.html">Home</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="contenedor_texto">
+        <p>Cambalaches.net</p>
+    </div>
+    <div class="menu_3">
+        <a href="/index.html">Home</a>
+        <br>
+        <a href="#">About</a>
+        <br>
+        <a href="/Ventanas Cambalaches.net/Cambalaches/cambalaches.html">Shop</a>
+        <br>
+        <a href="#">Help</a>
+        <p>Cambalaches.net</p>
+    </div>
+   </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/js/inicio.js"></script>
+</body>
+
+</html>
